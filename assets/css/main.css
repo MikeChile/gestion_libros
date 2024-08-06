@@ -1,0 +1,59 @@
+body {
+  background-image: url(https://bibliotecas.uai.cl/wp-content/uploads/2021/03/fondo-biblioteca-pregrado-santiago.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.cajaBook {
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 20px;
+  backdrop-filter: blur(10px);
+}
+
+.table {
+  background-color: rgba(255, 255, 255, 0.827);
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.btn-accion {
+  width: 100%;
+}
+
+.notificacion {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.notificacion-success {
+  background-color: #4caf50;
+  color: #fff;
+  border-color: #4caf50;
+}
+
+.notificacion-info {
+  background-color: #17a2b8;
+  color: #fff;
+  border-color: #17a2b8;
+}
+#ancho_libro {
+  min-width: 165px;
+}
+#ancho_acciones {
+  min-width: 165px;
+}
